@@ -2,7 +2,8 @@ require 'formula'
 
 class Hadoop121 < Formula
   homepage 'http://hadoop.apache.org/'
-  url 'http://www.apache.org/dyn/closer.cgi?path=hadoop/core/hadoop-1.2.1/hadoop-1.2.1.tar.gz'
+  #url 'http://www.apache.org/dyn/closer.cgi?path=hadoop/core/hadoop-1.2.1/hadoop-1.2.1.tar.gz'
+  url 'https://archive.apache.org/dist/hadoop/core/hadoop-1.2.1/hadoop-1.2.1.tar.gz'
   sha1 'b07b88ca658dc9d338aa84f5c68c809eb7c70964'
 
   keg_only "Conflicts with hadoop in core."
